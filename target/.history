@@ -1,0 +1,34 @@
+container:start
+container:start 0.0.0.0:8000
+container:start
+container:start -Ylog-classpath
+container:start
+1
+container:start
+~compile
+container:start
+~container:start
+console
+~container:start
+console
+~container:start
+console
+~container:start
+container:start
+compile
+~container:start
+console
+~container:start
+console
+import scala.concurrent._
+console
+~container:start
+console
+~container:start
+last *:update
+~container:start
+console
+~container:start
+container:start
+~container:start
+container:start

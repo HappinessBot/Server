@@ -1,0 +1,71 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/nikolay/Workspace/Ocado/server/src/main/scala/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 1b0e129e, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/nikolay/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/nikolay/Workspace/Ocado/server/src/main/scala/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:1: object mchange is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.mchange.v2.c3p0.ComboPooledDataSource[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:2: object slf4j is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.slf4j.LoggerFactory[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:3: object server is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.server.model._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:4: object scalatra is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatra._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:5: object servlet is not a member of package javax[0m
+[0m[[31merror[0m] [0mimport javax.servlet.ServletContext[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:6: object server is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.server.app._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:8: not found: object slick[0m
+[0m[[31merror[0m] [0mimport slick.jdbc.PostgresProfile.api._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:15: not found: type LifeCycle[0m
+[0m[[31merror[0m] [0mclass ScalatraBootstrap extends LifeCycle {[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:17: not found: value LoggerFactory[0m
+[0m[[31merror[0m] [0m  val logger = LoggerFactory.getLogger(getClass)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:19: not found: type ComboPooledDataSource[0m
+[0m[[31merror[0m] [0m  val cpds = new ComboPooledDataSource[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:22: not found: type ServletContext[0m
+[0m[[31merror[0m] [0m  override def init(context: ServletContext) {[0m
+[0m[[31merror[0m] [0m                             ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:23: not found: value Database[0m
+[0m[[31merror[0m] [0m    val db = Database.forDataSource(cpds, None)[0m
+[0m[[31merror[0m] [0m             ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:33: not found: type ServletContext[0m
+[0m[[31merror[0m] [0m  override def destroy(context: ServletContext) {[0m
+[0m[[31merror[0m] [0m                                ^[0m
+[0m[[31merror[0m] [0m/home/nikolay/Workspace/Ocado/server/src/main/scala/ScalatraBootstrap.scala:34: value destroy is not a member of AnyRef[0m
+[0m[[31merror[0m] [0m    super.destroy(context)[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[31merror[0m] [0m14 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

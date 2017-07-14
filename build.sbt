@@ -19,6 +19,8 @@ lazy val root = (project in file(".")).settings(
     "com.github.tototoshi" %% "slick-joda-mapper" % "2.3.0",
     "joda-time" % "joda-time" % "2.7",
     "org.joda" % "joda-convert" % "1.7",
-    "com.fazecast" % "jSerialComm" % "1.3.11"
+    "com.fazecast" % "jSerialComm" % "1.3.11",
+    "org.scalaj" % "scalaj-http_2.11" % "2.3.0"
+
   )
 ).settings(jetty(): _*)

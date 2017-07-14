@@ -17,6 +17,11 @@ import scala.concurrent.duration.Duration
 
 import com.server.robot.ControllRobot
 
+import scalaj.http.{Http, HttpResponse}
+
+import scala.collection.immutable.List
+
+
 trait SlickRoutes extends ScalatraBase with FutureSupport with ScalateSupport {
 
   def db: Database
@@ -73,6 +78,35 @@ trait SlickRoutes extends ScalatraBase with FutureSupport with ScalateSupport {
     }
     // frffflfffffflflfrrflfffflfrflfffflfrflffl
     // robot.sendCommand("ffrfffflfffffflfflffrrfflffffflffrfflffffflffrfflfffl")
+  }
+
+  get("/make_face") {
+    val avr_vote: Long = get_votes()
+
+    var face = ""
+
+    if (avr_vote <= -2) {
+      face = ""
+    } else if (avr_vote >= 2) {
+      face = ""
+    } else {
+      face = ""
+    }
+
+    val response: HttpResponse[String] = Http("http://127.0.0.1:8000/matrix/").asString
+
+    val result = JSON.parseFull(response.body)
+    result match {
+      case Some(map: Map[String, Any]) => {
+          var matrix: List[List[Int]] = 
+          map.get("matrix") match {
+            case Some(mat: List[List[Int]]) => mat
+            case _ => halt(400)
+          }
+          matrix
+        }
+      case _ => halt(400)
+    }
   }
 
   def get_votes(): Long = {

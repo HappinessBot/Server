@@ -1,3 +1,0 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/nikolay/Workspace/Ocado/Server/src/main/resources/logback.xml,/home/nikolay/Workspace/Ocado/Server/target/scala-2.11/classes/logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(/home/nikolay/Workspace/Ocado/Server/src/main/resources/c3p0.properties,/home/nikolay/Workspace/Ocado/Server/target/scala-2.11/classes/c3p0.properties)[0m
